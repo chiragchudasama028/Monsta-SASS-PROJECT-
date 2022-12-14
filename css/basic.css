@@ -1,0 +1,41 @@
+:root {
+  --bg-color:#212121;
+  --primery-color:#a8741a;
+  --font-color:#a0a0a0;
+  --white-color:#fff;
+  --black-color:#000;
+  --font:'jost';
+  --hading-font:'Aquire';
+  --font-size:16px;
+  --font-weight:400;
+  --line-height:lh;
+  --gutter-width:15px;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+ol, ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/*# sourceMappingURL=basic.css.map */

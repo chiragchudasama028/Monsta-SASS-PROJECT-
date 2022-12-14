@@ -1,0 +1,155 @@
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Black.woff2") format("woff2"), url("font-pathJost-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Italic.woff2") format("woff2"), url("font-pathJost-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-ExtraBoldItalic.woff2") format("woff2"), url("font-pathJost-ExtraBoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-BoldItalic.woff2") format("woff2"), url("font-pathJost-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-ExtraBold.woff2") format("woff2"), url("font-pathJost-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Bold.woff2") format("woff2"), url("font-pathJost-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-BlackItalic.woff2") format("woff2"), url("font-pathJost-BlackItalic.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-ExtraLightItalic.woff2") format("woff2"), url("font-pathJost-ExtraLightItalic.woff") format("woff");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-SemiBold.woff2") format("woff2"), url("font-pathJost-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-ThinItalic.woff2") format("woff2"), url("font-pathJost-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Light.woff2") format("woff2"), url("font-pathJost-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-SemiBoldItalic.woff2") format("woff2"), url("font-pathJost-SemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-ExtraLight.woff2") format("woff2"), url("font-pathJost-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-MediumItalic.woff2") format("woff2"), url("font-pathJost-MediumItalic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-LightItalic.woff2") format("woff2"), url("font-pathJost-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Medium.woff2") format("woff2"), url("font-pathJost-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Regular.woff2") format("woff2"), url("font-pathJost-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("font-pathJost-Thin.woff2") format("woff2"), url("font-pathJost-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aquire";
+  src: url("font-pathAquireBold.woff2") format("woff2"), url("font-pathAquireBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aquire";
+  src: url("font-pathAquireLight.woff2") format("woff2"), url("font-pathAquireLight.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Aquire";
+  src: url("font-pathAquireRegular.woff2") format("woff2"), url("font-pathAquireRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Feather";
+  src: url("font-pathFeather.ttf?sdxovp") format("truetype"), url("font-pathFeather.woff?sdxovp") format("woff"), url("font-pathFeather.svg?sdxovp#Feather") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=font.css.map */

@@ -1,0 +1,78 @@
+$bg-color :#212121;
+$primery-color:#a8741a;
+$font-color:#a0a0a0;
+$white-color:#fff;
+$black-color:#000;
+$font:'jost';
+$hading-font:'Aquire';
+$fs:16px;
+$fw:400;
+$lh:1.5;
+$gutter:15px;
+
+:root{
+--bg-color :#{$bg-color};
+--primery-color:#{$primery-color};
+--font-color:#{$font-color};
+--white-color:#{$white-color};
+--black-color:#{$black-color};
+--font:#{$font};
+--hading-font:#{$hading-font};
+--font-size:#{$fs};
+--font-weight:#{$fw};
+--line-height:#{lh};
+--gutter-width:#{$gutter};
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--bg-color);
+}
+ol , ul{
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+span{
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 20px;
+    border: 1px solid var(--primery-color);
+    color: var(--white-color);
+    font-family: var(--font);
+    text-transform: capitalize;
+}
+.btn-2{
+    display: inline-block;
+    font-family: var(--font);
+    text-transform: capitalize;   
+    color: var(--font-color);
+    padding: 10PX 0PX;
+    transition: all 0.5s ease;
+    &:hover{
+        color: var(--primery-color);
+    }
+}
+p{
+    color: var(--font-color);
+    font-family: var(--font);
+    line-height: 1.5;
+    font-size: 16px;
+    margin-bottom: var(--gutter-width);
+}

@@ -1,0 +1,107 @@
+.banner{
+    background-color: #1d1d1d;
+    .banner-img{
+        height: 500px;
+       text-align: center;
+       background-image: url('../img/img1-static-slider.jpg');
+       background-position: top;
+       background-repeat: no-repeat;
+       background-size: cover;
+       display: flex;
+       align-items: flex-end;
+       justify-content: center;
+       position: relative;
+        z-index: 1;
+       .banner-text{
+        margin-bottom: 30px;
+        background-color: transparent;
+        p{
+            color: var(--primery-color);
+            font-weight: 500;
+            font-family: var( --font);
+        }
+        h2{
+            font-size: 26px;
+            color: var(--white-color);
+            font-family: var( --hading-font);
+            margin-bottom: var(--gutter-width);
+        }
+        a{
+            color: var( --font-color);
+            font-weight: 500;
+            font-family: var(--font);
+            text-decoration: underline;
+        }
+        }
+        &::after{
+            position: absolute;
+            content: '';
+            width: 0%;
+            height: 0%;
+            z-index: -1;
+            background-color: #212122;
+
+        }
+        &:hover .banner-img::after{
+            background-color: transparent;
+        }
+
+    }
+    .banner-img-2{
+        background-image: url('../img/img2-static-slider.jpg');
+    }
+    .banner-img-3{
+        background-image: url('../img/img3-static-slider.jpg');
+    }
+}
+.banner-link{
+    padding-top: var(--gutter-width);
+    padding-bottom: var(--gutter-width);
+    text-align: center;
+    background-color: var(--bg-color);
+    border-bottom: 0.2px solid rgba(255, 255, 255,0.1);
+    border-top: 0.2px solid rgba(255, 255, 255,0.1);
+
+    i{
+        color: var(--primery-color);
+        margin-right: 8px;
+    }
+    p{
+        display: inline-block;
+        color: var(--white-color);
+        a{
+            color: var(--primery-color);
+        }
+    }
+
+}
+.quick-view , .bestselling{
+    .quick-view-img{
+        margin-bottom: var(--gutter-width);
+        img{
+            margin-bottom: var(--gutter-width);
+        }
+        text-align: center;
+        p{
+            color: var(--font-color);
+            font-family: var(--font);
+            line-height: 1.5;
+            font-size: 12px;
+            margin-bottom: var(--gutter-width);
+        }
+        h3{
+            color: var(--white-color);
+            font-size: 18px;
+            font-family: var(--hading-font);
+            margin-bottom: var(--gutter-width);
+
+        }
+        strong{
+            color: var(--primery-color);
+            font-family: var(--hading-font);
+            font-size: 20px;
+        }
+        
+    }
+
+}

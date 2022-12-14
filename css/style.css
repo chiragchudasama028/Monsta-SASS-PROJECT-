@@ -75,6 +75,19 @@ p {
   margin-bottom: var(--gutter-width);
 }
 
+h3 {
+  color: var(--white-color);
+  font-size: 18px;
+  font-family: var(--hading-font);
+  margin-bottom: var(--gutter-width);
+}
+
+strong {
+  color: var(--primery-color);
+  font-family: var(--hading-font);
+  font-size: 20px;
+}
+
 .container {
   width: 100%;
   padding-left: var(gutter-width);
@@ -215,15 +228,15 @@ p {
   padding-bottom: 100px;
 }
 
-.top-bar {
+.top-bar, .about-monsta {
   padding-bottom: 8px;
   padding-top: 8px;
   border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
 }
-.top-bar ul {
+.top-bar ul, .about-monsta ul {
   display: flex;
 }
-.top-bar .icon li {
+.top-bar .icon li, .about-monsta .icon li {
   width: 25px;
   height: 25px;
   border-radius: 50%;
@@ -232,25 +245,25 @@ p {
   text-align: center;
   margin-left: var(--gutter-width);
 }
-.top-bar .icon li i {
+.top-bar .icon li i, .about-monsta .icon li i {
   font-size: 14px;
   color: var(--white-color);
   padding: 5px;
 }
-.top-bar .account {
+.top-bar .account, .about-monsta .account {
   margin-left: auto;
 }
-.top-bar .account li {
+.top-bar .account li, .about-monsta .account li {
   margin-left: var(--gutter-width);
 }
-.top-bar .account li select {
+.top-bar .account li select, .about-monsta .account li select {
   background-color: transparent;
   color: var(--white-color);
   outline: none;
   border: none;
   text-transform: capitalize;
 }
-.top-bar .account li select option {
+.top-bar .account li select option, .about-monsta .account li select option {
   background-color: var(--bg-color);
   margin-bottom: 8px;
   display: block;
@@ -265,10 +278,8 @@ p {
   display: flex;
   align-items: center;
 }
-.header-inner .support i {
-  font-size: 28px;
-  color: var(--primery-color);
-  margin-right: 8px;
+.header-inner .support img {
+  margin-right: 10px;
 }
 .header-inner .support span {
   color: var(--primery-color);
@@ -544,6 +555,7 @@ p {
   border: none;
   outline: none;
   border: 1px solid rgba(255, 255, 255, 0.1);
+  color: var(--font-color);
 }
 .subscribe .title form .form-control::placeholder {
   text-transform: capitalize;
@@ -554,6 +566,88 @@ p {
   background-color: var(--font-color);
   border: none;
   padding: 15px 20px;
+}
+
+footer {
+  border-top: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+footer .about-monsta {
+  border: none;
+}
+footer .about-monsta .icon li {
+  background-color: #2f2f2f;
+  line-height: 10px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  margin: 0;
+  margin-right: var(--gutter-width);
+  transition: all 0.5s ease;
+}
+footer .about-monsta .icon li i {
+  padding: 8px;
+}
+footer .about-monsta .icon li:hover {
+  background-color: var(--primery-color);
+}
+footer .information nav ul li a span {
+  color: var(--font-color);
+  font-family: var(--font);
+  line-height: 1.5;
+  font-size: 14px;
+  margin-bottom: var(--gutter-width);
+  text-transform: capitalize;
+}
+footer .top-rated-products .products {
+  display: flex;
+  margin-bottom: var(--gutter-width);
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+footer .top-rated-products .products img {
+  width: 80px;
+  margin-right: var(--gutter-width);
+}
+footer .top-rated-products .products h4 {
+  font-family: var(--hading-font);
+  color: var(--white-color);
+  margin-bottom: var(--gutter-width);
+}
+footer .top-rated-products .products strong {
+  font-size: 16px;
+  margin-bottom: var(--gutter-width);
+  display: inline-block;
+}
+footer .top-rated-products .products:last-child {
+  border-bottom: none;
+}
+footer .footer-nav {
+  border-bottom: 0.2px solid rgba(255, 255, 255, 0.1);
+  border-top: 0.2px solid rgba(255, 255, 255, 0.1);
+}
+footer .footer-nav nav ul {
+  display: flex;
+  justify-content: center;
+}
+footer .footer-nav nav ul li a {
+  padding: var(--gutter-width);
+  display: block;
+}
+footer .footer-nav nav ul li a span {
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 16px;
+}
+footer .copyright {
+  padding-top: var(--gutter-width);
+  padding-bottom: var(--gutter-width);
+  text-align: center;
+}
+footer .copyright p span {
+  color: var(--primery-color);
+}
+footer .copyright img {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

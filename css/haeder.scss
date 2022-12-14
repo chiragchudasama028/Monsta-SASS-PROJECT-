@@ -1,4 +1,4 @@
-.top-bar{
+.top-bar , .about-monsta{
     padding-bottom: 8px;
     padding-top: 8px;
     border-bottom: 0.2px solid rgba(255, 255, 255,0.1);
@@ -51,10 +51,8 @@
     .support{
         display: flex;
         align-items: center;
-        i{
-            font-size: 28px;
-            color: var(--primery-color);
-            margin-right: 8px;
+        img{
+           margin-right: 10px;
         }
         span{
             color: var(--primery-color);
